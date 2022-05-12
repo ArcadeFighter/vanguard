@@ -1,9 +1,9 @@
 <template>
   <div class="filters">
     <div class="select" v-if="'category' in filters">
-      <label for="category">Category</label>
+      <label for="category">Kategorie</label>
       <select id="category" v-model="filters.category" @change="filterChange()">
-        <option value="null">All</option>
+        <option value="null">Všechny zbraně</option>
         <option v-for="(category, index) in categoryOptions" :key="index" :value="category">
           {{ category }}
         </option>
@@ -14,14 +14,14 @@
     <div class="checkbox" v-if="'hideCompleted' in filters">
       <label for="hideCompleted" :class="{ checked: filters.hideCompleted }">
         <input id="hideCompleted" type="checkbox" v-model="filters.hideCompleted" @change="filterChange()">
-        <span>Hide completed</span>
+        <span>Schovat hotové</span>
       </label>
     </div>
 
     <div class="checkbox" v-if="'hideNonRequired' in filters">
       <label for="hideNonRequired" :class="{ checked: filters.hideNonRequired }">
         <input id="hideNonRequired" type="checkbox" v-model="filters.hideNonRequired" @change="filterChange()">
-        <span>Hide non required</span>
+        <span>Schovat nevyžadované</span>
       </label>
     </div>
 
@@ -30,10 +30,10 @@
                 name="question-mark-circle" 
                 fill="white" 
                 v-tippy="{ placement: 'bottom' }" 
-                :content="'You only need to complete the number of base guns there are for each category to earn the Diamond camouflage. For example, the Assault Rifles requires 7 Gold camouflages to reward the Diamond camouflage.'"></eva-icon>
+                :content="'Pro Diamond kamufláž stačí udělat určitý počet zbraní na Gold. Například pro Assault Rifles stačí udělat 7 zbraní na Gold a budeš mít Diamond kamufláž.'"></eva-icon>
       <div class="info mobile">
         <eva-icon name="question-mark-circle" fill="white"></eva-icon>
-        <p>You only need to complete the number of base guns there are for each category to earn the Diamond camouflage. For example, the Assault Rifles requires 7 Gold camouflages to reward the Diamond camouflage.</p>
+        <p>Pro Diamond kamufláž stačí udělat určitý počet zbraní na Gold. Například pro Assault Rifles stačí udělat 7 zbraní na Gold a budeš mít Diamond kamufláž.</p>
       </div>
     </div>
   </div>

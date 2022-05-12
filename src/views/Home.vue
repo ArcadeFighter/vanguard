@@ -1,6 +1,5 @@
 <template>
   <transition name="fade">
-    <meta charset="UTF-8">
     <div class="container" v-if="show">
       <h1>Tracker pro Vanguard kamufláže</h1>
       <h2>Jednoduchý, lehký a intuitivní tracker na kamufláže z Call of Duty: Vanguard</h2>

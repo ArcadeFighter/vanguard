@@ -1,8 +1,8 @@
 <template>
   <transition name="fade">
     <div class="container" v-if="show">
-      <h1>Vanguard</h1>
-      <h2>Simple, lightweight & intuitive camouflage tracker for Call of Duty: Vanguard</h2>
+      <h1>Tracker pro Vanguard kamufláže</h1>
+      <h2>Jednoduchý, lehký a intuitivní tracker na kamufláže z Call of Duty: Vanguard</h2>
 
       <div class="buttons">
         <button @click="$router.push('/atomic')" class="atomic"><span>Track Atomic</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>

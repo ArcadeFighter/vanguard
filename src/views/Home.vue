@@ -1,12 +1,12 @@
 <template>
   <transition name="fade">
     <div class="container" v-if="show">
-      <h1>Tracker pro Vanguard kamufláe</h1>
-      <h2>Jednoduchı, lehkı a intuitivní tracker na kamufláe z Call of Duty: Vanguard</h2>
+      <h1>Tracker pro Vanguard kamuflÃ¡Å¾e</h1>
+      <h2>JednoduchÃ½, lehkÃ½ a intuitivnÃ­ tracker na kamuflÃ¡Å¾e z Call of Duty: Vanguard</h2>
 
       <div class="buttons">
-        <button @click="$router.push('/atomic')" class="atomic"><span>Trackovat Atomic kamuflá</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
-        <button @click="$router.push('/aether')" class="aether"><span>Trackovat Dark Aether kamuflá</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/atomic')" class="atomic"><span>Trackovat Atomic kamuflÃ¡Å¾</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/aether')" class="aether"><span>Trackovat Dark Aether kamuflÃ¡Å¾</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
       </div>
     </div>
   </transition>

@@ -36,7 +36,7 @@ export default [
     name: 'Surgical',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Dát 100 Headshot killù' },
+        'Assault Rifles': { default: 'DÃ¡t 100 Headshot killÅ¯' },
         'Handguns': { default: 'Get 100 Headshots' },
         'Launchers': { default: 'Destroy 100 Enemy Killstreaks, Equipment or Field Upgrades' },
         'Light Machine Guns': { default: 'Get 100 Headshots' },

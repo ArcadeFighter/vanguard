@@ -2,15 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\data",
-    "\\src\\data\\weapons",
-    "\\src\\router",
-    "\\src\\scss",
-    "\\src\\store",
-    "\\src\\utils",
     "\\src\\views"
   ],
-  "SelectedNode": "\\src\\App.vue",
+  "SelectedNode": "\\src\\views\\Home.vue",
   "PreviewInSolutionExplorer": false
 }

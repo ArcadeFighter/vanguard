@@ -150,7 +150,7 @@ export default new Vuex.Store({
 
       Vue.notify({
         type: 'success',
-        title: 'Všechen progress byl úšpìšnì resetovaný!'
+        title: 'VÅ¡echen progress byl ÃºÅ¡pÄ›Å¡nÄ› resetovanÃ½!'
       });
     },
 
@@ -160,7 +160,7 @@ export default new Vuex.Store({
 
       Vue.notify({
         type: 'success',
-        title: `Progress ${ type === 'atomic' ? 'Atomic' : 'Dark Aether' } kamufláže byl úšpìšnì resetovaný!`
+        title: `Progress ${ type === 'atomic' ? 'Atomic' : 'Dark Aether' } kamuflÃ¡Å¾e byl ÃºÅ¡pÄ›Å¡nÄ› resetovanÃ½!`
       });
     },
 

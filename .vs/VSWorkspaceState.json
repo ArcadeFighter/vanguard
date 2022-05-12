@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\data",
+    "\\src\\data\\weapons",
+    "\\src\\router",
+    "\\src\\scss",
+    "\\src\\store",
+    "\\src\\utils",
+    "\\src\\views"
   ],
-  "SelectedNode": "\\C:\\Users\\Arcade\\Source\\Repos\\ArcadeFighter\\vanguard",
+  "SelectedNode": "\\src\\App.vue",
   "PreviewInSolutionExplorer": false
 }

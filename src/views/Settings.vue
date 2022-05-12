@@ -45,40 +45,40 @@ export default {
       uploading: false,
       settings: [
         {
-          name: 'Export progress',
-          description: 'Export your current progress as a file.',
+          name: 'Exportovat progress',
+          description: 'Exportuje tvůj aktuální progress do souboru.',
           action: 'exportProgress',
         },
         {
-          name: 'Import progress',
-          description: 'Import progress from exported file.',
+          name: 'Importovat progress',
+          description: 'Importuje tvůj progress ze souboru.',
           action: 'importProgress'
         },
         {
           // TODO: Fix naming
-          name: 'Reset Atomic camouflage progress',
-          description: 'Reset your current Atomic camouflage progress.',
-          warning: 'This action is irreversible.',
+          name: 'Resetovat progress Atomic kamufláže',
+          description: 'Resetuje tvůj aktuální progress Atomic kamufláže.',
+          warning: 'Tato akce je nevratná.',
           action: 'resetProgress',
           param: 'atomic',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         },
         {
           // TODO: Fix naming
-          name: 'Reset Dark Aether camouflage progress',
-          description: 'Reset your current Dark Aether camouflage progress.',
-          warning: 'This action is irreversible.',
+          name: 'Resetovat progress Dark Aether kamufláže',
+          description: 'Resetuje tvůj aktuální progress Dark Aether kamufláže.',
+          warning: 'Tato akce je nevratná.',
           action: 'resetProgress',
           param: 'aether',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         },
         {
           // TODO: Fix naming
-          name: 'Reset all progress',
-          description: 'Reset all your current camouflage progress (Atomic & Dark Aether).',
-          warning: 'This action is irreversible.',
+          name: 'Resetovat všechen progress',
+          description: 'Resetovat všechen tvůj progress u obou kamufláží (Atomic & Dark Aether).',
+          warning: 'Tato akce je nevratná.',
           action: 'resetAll',
-          button: 'Reset progress'
+          button: 'Resetovat progress'
         }
       ]
     }
@@ -110,17 +110,17 @@ export default {
                   event.target.value = null;
                   this.$notify({
                     type: 'success',
-                    title: `Successfully imported progress!`,
+                    title: `Progress  sp n  importov n!`,
                   });
                 });
             }, 500);
           };
           reader.readAsText(file);
         } else {
-          this.handleImportError(`Your browser does not support the required APIs to handle uploads.`, event);
+          this.handleImportError(`Tvůj prohlížeč nepodporuje požadovanou API pro zpracování nahrávání souborů.`, event);
         }
       } else {
-        this.handleImportError(`The file type of the uploaded file is incorrect, it needs to be ".json".`, event);
+        this.handleImportError(`Tento typ souboru je špatný. Sprývný soubor musí mít koncovku ".json".`, event);
       }
     },
 

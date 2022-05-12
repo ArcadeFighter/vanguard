@@ -2,7 +2,7 @@
   <div id="app" :style="{ overflowY: mobileNav ? 'hidden' : null }">
     <transition name="slidedown">
       <div class="notice" v-if="showNotice">
-        <p>If you like this site, show your appreciation by <a href="https://www.buymeacoffee.com/emilcarlsson">buying me a beer</a> 🍺</p>
+        <p>Připoj se na náš <a href="https://discord.gg/adisbak">Discord</a></p>
         <eva-icon name="close" fill="white" width="16" height="16" @click="showNotice = false"></eva-icon>
       </div>
     </transition>
@@ -17,7 +17,7 @@
       <div>
         <router-link to="/atomic">Atomic</router-link>
         <router-link to="/aether">Dark Aether</router-link>
-        <router-link to="/settings" class="icon settings" content="Settings" v-tippy="{ placement: 'bottom' }">
+        <router-link to="/settings" class="icon settings" content="Nastavení" v-tippy="{ placement: 'bottom' }">
           <eva-icon name="settings-2-outline" fill="white"></eva-icon>
         </router-link>
       </div>
@@ -40,9 +40,9 @@
           <router-link to="/aether">Dark Aether</router-link>
         </div>
         <div class="footer">
-          <router-link to="/settings">Settings</router-link>
-          <router-link to="/about">About</router-link>
-          <a href="https://github.com/carlssonemil/vanguard">GitHub</a>
+          <router-link to="/settings">Nastavení</router-link>
+          <router-link to="/about">Informace</router-link>
+          <a href="https://github.com/carlssonemil/vanguard">GitHub (zdrojový kód)</a>
 
           <div class="info">
             <div>
@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <a href="https://www.buymeacoffee.com/emilcarlsson" class="button">Support me by buying me a beer 🍺</a>
+          <a href="https://discord.gg/adisbak" class="button">Připoj se na náš Discord</a>
         </div>
       </nav>
     </transition>
@@ -71,10 +71,11 @@
     </main>
 
     <footer class="container">
-      <div>Made by <a href="https://emilcarlsson.se/">Emil Carlsson</a></div>
+      <div>Vytvořil <a href="https://emilcarlsson.se/">Emil Carlsson</a></div>
+      <div>Upravil <a href="https://twitch.tv/arcade0x">Arcade0X</a></div>
       
       <div>
-        <router-link to="/about">About</router-link>
+        <router-link to="/about">Informace</router-link>
         <a href="https://github.com/carlssonemil/vanguard">GitHub</a>
       </div>
     </footer>

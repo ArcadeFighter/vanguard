@@ -5,8 +5,8 @@
       <h2>Jednoduchý, lehký a intuitivní tracker na kamufláže z Call of Duty: Vanguard</h2>
 
       <div class="buttons">
-        <button @click="$router.push('/atomic')" class="atomic"><span>Trackovat Atomic kamufláž</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
-        <button @click="$router.push('/aether')" class="aether"><span>Trackovat Dark Aether kamufláž</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/atomic')" class="atomic"><span>Atomic kamufláž</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
+        <button @click="$router.push('/aether')" class="aether"><span>Dark Aether kamufláž</span><eva-icon name="arrow-forward" fill="white"></eva-icon></button>
       </div>
     </div>
   </transition>

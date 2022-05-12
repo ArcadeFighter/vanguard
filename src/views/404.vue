@@ -2,8 +2,8 @@
   <transition name="fade">
     <div class="error container" v-if="show">
       <h1 class="error-title" data-shadow="404">404</h1>
-      <p class="error-subtitle">Dang, looks like you took a wrong turn and ended up on a missing page. 🤔</p>
-      <button @click="$router.push({ name: 'Home' })"><eva-icon name="arrow-back" width="18"></eva-icon>Return to home</button>
+      <p class="error-subtitle">Dang, vypadá to, že jsi odbočil špatně na chybějící stránku. 🤔</p>
+      <button @click="$router.push({ name: 'Domů' })"><eva-icon name="arrow-back" width="18"></eva-icon>Jít zpět na hlavní stránku</button>
     </div>
   </transition>
 </template>

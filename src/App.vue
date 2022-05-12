@@ -42,20 +42,20 @@
         <div class="footer">
           <router-link to="/settings">Nastavení</router-link>
           <router-link to="/about">Informace</router-link>
-          <a href="https://github.com/carlssonemil/vanguard">GitHub (zdrojový kód)</a>
+          <a href="https://github.com/carlssonemil/vanguard">GitHub</a>
 
           <div class="info">
             <div>
-              <p>Looking for other camouflage trackers? 😎</p>
+              <p>Hledáš jiný trackery na kamufláže? 😎</p>
 
               <div class="buttons">
                 <a href="https://damascus.vercel.app/">
                   <img :src="require(`./assets/damascus.png`)">
-                  <span>Modern Warfare</span>
+                  <span>Modern Warfare (2019)</span>
                 </a>
                 <a href="https://coldwar.vercel.app/">
                   <img :src="require(`./assets/coldwar.png`)">
-                  <span>Cold War</span>
+                  <span>Black Ops Cold War</span>
                 </a>
               </div>
             </div>

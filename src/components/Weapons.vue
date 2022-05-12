@@ -31,7 +31,7 @@
     </transition-group>
 
     <div v-if="Object.keys(weapons).length === 0" class="finished-placeholder">
-      <p>You have completed all camouflage challenges 👏</p>
+      <p>Dokončil jsi všechny challenge na kamufláže 👏</p>
     </div>
   </div>
 </template>

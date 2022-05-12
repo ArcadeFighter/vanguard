@@ -9,7 +9,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'Domů',
     component: Home
   },
   {
@@ -29,12 +29,12 @@ const routes = [
   },
   {
     path: '/about',
-    name: 'About',
+    name: 'Informace',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
     path: '/settings',
-    name: 'Settings',
+    name: 'Nastavení',
     component: () => import(/* webpackChunkName: "settings" */ '../views/Settings.vue')
   }
 ]

@@ -7,8 +7,8 @@ export default [
         'Assault Rifles': { default: 'Dát 400 Killů' },
         'Pistole': { default: 'Dát 400 Killů' },
         'Launchery': {
-          default: 'Get 100 Eliminations',
-          'MK11 Launcher': 'Get 200 Eliminations'
+          default: 'Dát 100 Killů',
+          'MK11 Launcher': 'Dát 200 Killů'
         },
         'Light Machine Guns': { default: 'Dát 400 Killů' },
         'Marksman Rifles': { default: 'Dát 300 Killů' },
@@ -18,17 +18,17 @@ export default [
         'Submachine Guns': { default: 'Dát 400 Killů' }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 4000 Eliminations' },
-        'Pistole': { default: 'In Zombies, get 4000 Eliminations' },
-        'Launchery': { default: 'In Zombies, get 2500 Eliminations' },
-        'Light Machine Guns': { default: 'In Zombies, get 4000 Eliminations' },
-        'Marksman Rifles': { default: 'In Zombies, get 4000 Eliminations' },
+        'Assault Rifles': { default: 'V Zombies, zabít 4000 Zombies' },
+        'Pistole': { default: 'V Zombies, zabít 4000 Zombies' },
+        'Launchery': { default: 'V Zombies, zabít 2500 Zombies' },
+        'Light Machine Guns': { default: 'V Zombies, zabít 4000 Zombies' },
+        'Marksman Rifles': { default: 'V Zombies, zabít 4000 Zombies' },
         'Melee': {
-          default: 'In Zombies, Get 1000 Eliminations',
-          'Combat Shield': 'In Zombies, get 750 kills' },
-        'Brokovnice': { default: 'In Zombies, get 4000 Eliminations' },
-        'Sniper Rifles': { default: 'In Zombies, get 4000 Eliminations' },
-        'Submachine Guns': { default: 'In Zombies, get 4000 Eliminations' }
+          default: 'V Zombies, zabít 1000 Zombies',
+          'Combat Shield': 'V Zombies, zabít 750 Zombies' },
+        'Brokovnice': { default: 'V Zombies, zabít 4000 Zombies' },
+        'Sniper Rifles': { default: 'V Zombies, zabít 4000 Zombies' },
+        'Submachine Guns': { default: 'V Zombies, zabít 4000 Zombies' }
       }
     }
   },
@@ -38,10 +38,10 @@ export default [
       atomic: {
         'Assault Rifles': { default: 'Dát 100 Headshot killů' },
         'Pistole': { default: 'Dát 100 Headshot killů' },
-        'Launchery': { default: 'Destroy 100 Enemy Killstreaks, Equipment or Field Upgrades' },
+        'Launchery': { default: 'Zničit 100 nepřátelských killstreaků, vybavení (C4, mina apod.) nebo Field Upgradů' },
         'Light Machine Guns': { default: 'Dát 100 Headshot killů' },
         'Marksman Rifles': { default: 'Dát 100 Headshot killů' },
-        'Melee': { default: 'Get 50 Backstabber Kills' },
+        'Melee': { default: 'Dát 50 Backstabber Killů (zezadu)' },
         'Brokovnice': { default: 'Dát 100 Headshot killů' },
         'Sniper Rifles': { default: 'Dát 100 Headshot killů' },
         'Submachine Guns': { default: 'Dát 100 Headshot killů' }
@@ -65,18 +65,18 @@ export default [
     name: 'Predatory Ambition',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Get 50 Multikills' },
-        'Pistole': { default: 'Get 50 Multikills' },
+        'Assault Rifles': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Pistole': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
         'Launchery': {
-          default: 'Destroy 50 Ground Killstreaks or Field Upgrades',
-          'MK11 Launcher': 'Get 50 Longshot Kills'
+          default: 'Zničit 50 Pozemních Killstreaků nebo Field Upgradů',
+          'MK11 Launcher': 'Dát 50 Longshot Killů (na velkou vzdálenost)'
         },
-        'Light Machine Guns': { default: 'Get 50 Multikills' },
-        'Marksman Rifles': { default: 'Get 50 Multikills' },
-        'Melee': { default: 'Get 30 Slide Kills' },
-        'Brokovnice': { default: 'Get 50 Multikills' },
-        'Sniper Rifles': { default: 'Get 50 Multikills' },
-        'Submachine Guns': { default: 'Get 50 Multikills' }
+        'Light Machine Guns': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Marksman Rifles': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Melee': { default: 'Dát 30 Killů ve skluzu' },
+        'Brokovnice': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Sniper Rifles': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Submachine Guns': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 4000 Pack-a-Punched Eliminations' },
@@ -97,22 +97,22 @@ export default [
     name: 'Reptilian',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Get 5 Kills Without Dying 30 Times' },
-        'Pistole': { default: 'Get 5 Kills Without Dying 30 Times' },
+        'Assault Rifles': { default: 'Dát 5 Killů bez smrti 30x krát' },
+        'Pistole': { default: 'Dát 5 Killů bez smrti 30x krát' },
         'Launchery': {
-          default: 'Destroy 50 Enemy Aerial Killstreaks',
-          'Panzerfaust': 'Get 50 Longshot Kills',
-          'MK11 Launcher': 'Get 50 Double Kills'
+          default: 'Zničit 50 nepřátelských vzdušných Killstreaků',
+          'Panzerfaust': 'Dát 50 Longshot Killů (na velkou vzdálenost)',
+          'MK11 Launcher': 'Dát 50 Double Killů'
         },
-        'Light Machine Guns': { default: 'Get 5 Kills Without Dying 30 Times' },
-        'Marksman Rifles': { default: 'Get 5 Kills Without Dying 30 Times' },
-        'Melee': { default: 'Get 30 Double Kills' },
-        'Brokovnice': { default: 'Get 5 Kills Without Dying 30 Times' },
+        'Light Machine Guns': { default: 'Dát 5 Killů bez smrti 30x krát' },
+        'Marksman Rifles': { default: 'Dát 5 Killů bez smrti 30x krát' },
+        'Melee': { default: 'Dát 30 Double Killů' },
+        'Brokovnice': { default: 'Dát 5 Killů bez smrti 30x krát' },
         'Sniper Rifles': {
-          default: 'Get 5 Kills Without Dying 30 Times',
-          '3-Line Rifle': 'Get 100 Prone Kills'
+          default: 'Dát 5 Killů bez smrti 30 krát',
+          '3-Line Rifle': 'Dát 100 Killů v leže'
         },
-        'Submachine Guns': { default: 'Get 5 Kills Without Dying 30 Times' }
+        'Submachine Guns': { default: 'Dát 5 Killů bez smrti 30x krát' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 10 rapid Kills 50 times' },
@@ -208,7 +208,7 @@ export default [
     requirements: {
       atomic: {
         'Assault Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'STG44': 'Get 100 ADS Kills with the Krausnick 220mm Rapid Barrel, 7.62 Gorenko 30 Round Mags, and VDD 27 Precision Stock Equipped',
           'Bar': 'Get 100 Longshot Kills with the CGC 30" XL Barrel, Pistol Grip Custom Stock, and Discard Proficiency Equipped',
           'AS44': 'Get 100 Hipfire Kills with the Empress 400mm Barrel, .30 Russian Short 60 Round Mags, and Steady Proficiency Equipped',
@@ -228,7 +228,7 @@ export default [
           'Top Break': 'Get 50 Kills Without Taking Damage from that Enemy with the Wilkie W-4 Stub Barrel, .30 Russian Short Mags, and Hair Trigger Equipped'
         },
         'Light Machine Guns': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Bren': 'Get 100 Longshot Kills with the Queens 775m Scepter Barrel, .303 British 100 Round Drums Mags, and Queens Model 11 BH Stock Equipped',
           'MG42': 'Get 100 Hipfire Kills with the Krausnick 355mm Rapid Barrel, Removed Stock, and Tight Grip Proficiency Equipped',
           'DP27': 'Get 100 100 ADS Kills with the Kovalevskaya 680mm B02D Barrel, 7.62x54mmR 105 Round Pans Mags, and Spotter Proficiency Equipped',
@@ -236,27 +236,27 @@ export default [
           'Whitley': 'Get 100 Kills While Crouched or Prone with the 26" Gracey Rapid Barrel, .30-06 120 Round Mags, and CGC R2 Padded Stock Equipped'
         },
         'Marksman Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'M1 Garand': 'Get 100 ADS Kills with the Cooper 25" Custom Barrel, CGC G2 Thumbhole Stock, and .303 8 Round Mags Equipped',
           'SVT-40': 'Dát 100 Headshot killů with the .303 British 10 Round Mags, Kovalevskaya S02 Weighted Stock, and Focus Proficiency Equipped',
           'G-43': 'Get 100 ADS Kills with the .30-06 10 Round Mags, ZP MS02 Custom Stock, and Quickscope Proficiency Equipped'
         },
         'Brokovnice': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Combat Shotgun': 'Get 100 ADS Kills with the Chariot 16" Short Barrel, 12 Gauge 5 Round Tube Mags, and CGC 2M Wire Stock Equipped',
           'Double Barrel': 'Dát 100 Headshot killů with the Wilkie Huntsman Barrel, Wilkie Marksman Stock, and Vital Proficiency Equipped',
           'Gracey Auto': 'Get 100 Hipfire Kills with the CGC 22" Rapid Barrel, 12 Gauge 7 Round Mags, and Chariot Sport Stock Equipped',
           'Einhorn Revolving': 'Get 50 Kills Without Taking Damage from that Enemy with the Sawed-Off Barrel, 16 Gauge 7 Round Cylinder Mags, and Reisdorf Folding Stock Equipped'
         },
         'Sniper Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Kar98k': 'Get 100 Kills Without Taking Damage from that Enemy with the Krausnick Scout Barrel, 6.5mm Sakura 5 Round Mags, and the Unmarked Proficiency Equipped',
           'Type 99': 'Get 100 Longshot Kills with the Shiraishi 712mm Sniper Barrel, Shiraishi Precision Stock, and Spotter Proficiency Equipped',
           '3-Line Rifle': 'Get 100 Longshot Kills with the 270mm Voz Carbine Barrel, .30-06 20 Round Mags, and Kovalevskaya S01 Stock Equipped' ,
           'Gorenko Anti-Tank Rifle': 'Get 100 Kills After Recently Aiming Down Sights with the 420mm Empress Barrel, ZAC Custom Precision Stock, and Discard Proficiency Equipped'
         },
         'Submachine Guns': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'MP-40': 'Get 100 Longshot Kills with the Krausnick 317mm 04B Barrel, 8mm Kurz 32 Round Mags, and VDD 34M Padded Stock Equipped',
           'M1928': 'Get 100 Kills Without Taking Damage from that Enemy with the Chariot 2.5" Rapid Barrel, CGC Wire Grip Stock, and Disable Proficiency Equipped',
           'Type 100': 'Get 100 Longshot Kills with the Warubachi 134mm Rapid Barrel, 8mm Kurz 40 Round Drums Mags, and Shiraishi T100 Stock Equipped',
@@ -281,7 +281,7 @@ export default [
     requirements: {
       atomic: {
         'Assault Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'STG44': 'Dát 100 Headshot killů with the Krausnick 620mm Precision Barrel, .30 Russian Short 30 Round Mags, and Vital Proficiency Equipped',
           'Bar': 'Get 100 Bullet Pen Kills with the .50 BMG 20 Round Mags. Cooper SP Stock, and Driller Proficiency Equipped',
           'AS44': 'Get 100 ADS Kills with the ZAC 650mm Precision Barrel, 7.62x54mmR 30 Round Mags, and ZAC 12A Stock Equipped',
@@ -301,7 +301,7 @@ export default [
           'Top Break': 'Get 50 ADS Kills with the W-7 Barrel, .30 Russian Short Mags, and Steady Trigger Equipped'
         },
         'Light Machine Guns': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Bren': 'Get 100 ADS Kills with the Queens 615mm Crown Barrel, .50 BMG 50 Round Mags, and Oak & Shield 12B Stock Equipped',
           'MG42': 'Get 100 ADS Kills with the VDD 680mm 31M Barrel, 8mm Klauser 50 Round Fast Mags, and Krausnick S91MG Stock Equipped',
           'DP27': 'Get 100 Quickscope Kills with the ZAC 595mm Falchion Barrel, 7.62x54mmR 30 Round Fast Belts Mags, and Empress SK Adjustable Stock Equipped',
@@ -309,27 +309,27 @@ export default [
           'Whitley': 'Get 100 ADS Kills with the 20" Ragdoll RE2 Barrel, Gracey EK8 Stock, and Hardscope Proficiency Equipped'
         },
         'Marksman Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'M1 Garand': 'Get 100 Kills While Crouched or Prone with the 6.5 Sakura 16 Round Drum Mags, Chariot S1 Stock Equipped',
           'SVT-40': 'Get 100 Kills Without Taking Damage from that Enemy with the Kovalevskaya 800mm B03 Barrel, Empress Crown Stock, and Vital Proficiency Equipped',
           'G-43': 'Get 100 Kills Without Taking Damage from that Enemy with the Wyvern 570mm Full-Auto Barrel, ZP Padded Stock, and Tight Grip Proficiency Equipped'
         },
         'Brokovnice': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Combat Shotgun': 'Get 100 Hipfire While Moving with the Framble No. 3 Barrel, CGC 3M Adjustable Stock, and Steady Proficiency Equipped',
           'Gracey Auto': 'Dát 100 Headshot killů with the Extra Range Mags, Chariot S Huntsman Stock, and Tight Grip Proficiency Equipped',
           'Double Barrel': 'Get 100 Hipfire Kills with the 16 Gauge Mags, Removed Stock, and Akimbo Proficiency Equipped',
           'Einhorn Revolving': 'Get 100 ADS Kills with the Klauser 710mm 02B Barrel, 12 Gauge S Round Cylinder Mags, and Wreck Proficiency Equipped'
         },
         'Sniper Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Kar98k': 'Get 100 ADS Kills with the Krausnick 560mm LWS03K Barrel, 8mm Klauser 3 Round Mags, and Reisdorf Wire Stock Equipped',
           'Type 99': 'Dát 100 Headshot killů with the 8mm Klauser 5 Round Mags, Removed Stock, and Vital Proficiency Equipped',
           '3-Line Rifle': 'Get 100 ADS Kills with the .303 British 5 Round Mags, MN Custom Stock, and Shrouded Proficiency Equipped' ,
           'Gorenko Anti-Tank Rifle': 'Get 100 Kills while Moving with the 240mm ZAC Rapid Barrel, 13mm AM 7 Round Mags, and Anastasia Type 3B Stoyat Stock Equipped'
         },
         'Submachine Guns': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'MP-40': 'Get 100 Kills Without Taking Damage from that Enemy with the VDD 285mm Shrouded Barrel, 7.62 Gorenko 32 Round Mags, and Unmarked Proficiency Equipped',
           'M1928': 'Get 100 Kills While Crouched or Prone with the CGC 12" Cooling Barrel, 8mm Kurz 50 Round Drums Mags, and Chariot SI Stock Equipped',
           'Type 100': 'Get 100 Kills While Crouched or Prone with the Shiraishi 374mm Barrel, Shiraishi Weighted Stock, and Acrobatic Proficiency Equipped',
@@ -354,7 +354,7 @@ export default [
     requirements: {
       atomic: {
         'Assault Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'STG44': 'Get 100 Kills While Moving with the .30 Russian Short 20 Round Mags, Konstanz Tactical Stock, and Pressure Proficiency Equipped',
           'Bar': 'Get 100 Kills While Moving with the Cooper 21" Scythe Barrel, 8mm Klauser 20 Round Mags, and Acrobatic Proficiency Equipped',
           'AS44': 'Get 100 Kills While Moving with the Empress Falchion A Barrel, Kovalevskaya Custom Stock, and Disable Proficiency Equipped',
@@ -374,7 +374,7 @@ export default [
           'Top Break': 'Get 50 Kills Without Taking Damage from that Enemy with the W-7 Barrel, 9mm Mags, and Heavy Trigger Equipped'
         },
         'Light Machine Guns': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Bren': 'Get 100 Longshot Kills with the Queens 705mm Royal Barrel, Hockenson SP2B Stock, and Dismantle Proficiency Equipped',
           'MG42': 'Get 100 Longshot Kills with the Krausnick 450mm1342MG Barrel, 13mm Anti-Material 125 Round Mags, and Wreck Proficiency Equipped',
           'DP27': 'Get 100 Kills While Crouched or Prone with the .30-06 63 Round Pans Mags, Empress VZV Stock, and Defender Proficiency Equipped',
@@ -382,27 +382,27 @@ export default [
           'Whitley': 'Get 100 Long Range Kills with the 28" Gracey Mk. 9 Barrel, .50 BMG 160 Round Boxes, and Frenzy Proficiency Equipped'
          },
         'Marksman Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'M1 Garand': 'Get 100 Longshot Kills with the Cooper 25" Custom Barrel, .30-06 12 Round Mags, and Acquisition Proficiency Equipped',
           'SVT-40': 'Get 100 Kills Without Taking Damage from that Enemy with the Kovalevskaya Custom Barrel, 6.5 Sakura 15 Round Mags, and Perfectionist Proficiency Equipped',
           'G-43': 'Get 100 ADS Kills with the Wyvern Burst Barrel, 8mm Klauser 20 Round Mags, and Fitzherbert Reinforced Stock Equipped'
         },
         'Brokovnice': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Combat Shotgun': 'Dát 100 Headshot killů with the Framble 18" Precision Barrel, 16 Gauge 10 Round Drums Mags, and Vital Proficiency Equipped',
           'Gracey Auto': 'Get 100 ADS Kills with the Sawed-Off Barrel, CGC H4 Stock, and Frenzy Proficiency Equipped',
           'Double Barrel': 'Get 100 ADS Kills with the Sawed-Off Barrel, Fast Loading 12 Gauge Mags, and Panic Proficiency Equipped',
           'Einhorn Revolving': 'Get 100 Hipfire Kills While Moving with the Birdshot 5 Round Cylinder Mags, VDD Hunter Stock, and Gung-ho Proficiency Equipped'
         },
         'Sniper Rifles': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'Kar98k': 'Get 100 Longshot Kills with the VDD 660mm 05HE Barrel, VDD Thumbhole Stock, and Shrouded Proficiency Equipped',
           'Type 99': 'Get 100 ADS Kills with the Sakura 776mm Barrel, 6.5mm Sakura 3 Round Fast Mags, and Sakura CVR Custom Stock Equipped',
           '3-Line Rifle': 'Dát 100 Headshot killů with the 500mm MN Custom Barrel, .30-06 20 Round Mags, and Hardscope Proficiency Equipped',
           'Gorenko Anti-Tank Rifle': 'Get 100 Kills While Crouched or Prone with the 440mm Anastasia Custom Barrel, 13mm AM 10 Round Mags, and Kovalevskaya Type 2 Padded Stock Equipped'
         },
         'Submachine Guns': {
-          default: 'Get 100 Kills with Certain Attachments Equipped',
+          default: 'Dát 100 killů s třemi určitými attachmenty',
           'MP-40': 'Dát 100 Headshot killů with the VDD 189mm Short Barrel, VDD 34M Stock, and Steady Proficiency Equipped',
           'M1928': 'Get 100 ADS Kills with the .45 ACP 30 Round Fast Mags, Chariot Marksman Stock, and Steady Proficiency Equipped',
           'Type 100': 'Get 100 Hipfire Kills While Moving with the 8mm Nambu 20 Round Mags, Sakura Type 2 Stock, and Fleet Proficiency Equipped',

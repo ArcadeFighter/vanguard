@@ -13,20 +13,20 @@ export default [
         'Light Machine Guns': { default: 'Get 400 Eliminations' },
         'Marksman Rifles': { default: 'Get 400 Eliminations' },
         'Melee': { default: 'Get 50 Eliminations' },
-        'Brokovnice': { default: 'Get 400 Eliminations' },
+        'Shotguns': { default: 'Get 400 Eliminations' },
         'Sniper Rifles': { default: 'Get 400 Eliminations' },
         'Submachine Guns': { default: 'Get 400 Eliminations' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 4000 Eliminations' },
         'Handguns': { default: 'In Zombies, get 4000 Eliminations' },
-        'Launchery': { default: 'In Zombies, get 2500 Eliminations' },
+        'Launchers': { default: 'In Zombies, get 2500 Eliminations' },
         'Light Machine Guns': { default: 'In Zombies, get 4000 Eliminations' },
         'Marksman Rifles': { default: 'In Zombies, get 4000 Eliminations' },
         'Melee': {
           default: 'In Zombies, Get 1000 Eliminations',
           'Combat Shield': 'In Zombies, get 750 kills' },
-        'Brokovnice': { default: 'In Zombies, get 4000 Eliminations' },
+        'Shotguns': { default: 'In Zombies, get 4000 Eliminations' },
         'Sniper Rifles': { default: 'In Zombies, get 4000 Eliminations' },
         'Submachine Guns': { default: 'In Zombies, get 4000 Eliminations' }
       }
@@ -36,13 +36,13 @@ export default [
     name: 'Surgical',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Get 100 Headshots' },
+        'Assault Rifles': { default: 'Dát 100 Headshot killù' },
         'Handguns': { default: 'Get 100 Headshots' },
         'Launchers': { default: 'Destroy 100 Enemy Killstreaks, Equipment or Field Upgrades' },
         'Light Machine Guns': { default: 'Get 100 Headshots' },
         'Marksman Rifles': { default: 'Get 100 Headshots' },
         'Melee': { default: 'Get 50 Backstabber Kills' },
-        'Brokovnice': { default: 'Get 100 Headshots' },
+        'Shotguns': { default: 'Get 100 Headshots' },
         'Sniper Rifles': { default: 'Get 100 Headshots' },
         'Submachine Guns': { default: 'Get 100 Headshots' }
       },

@@ -120,7 +120,7 @@ export default [
         'Launchery': { default: 'In Zombies, kill 5 or more enemies with a single shot 50 times' },
         'Light Machine Guns': { default: 'In Zombies, get 10 rapid Kills 50 times' },
         'Marksman Rifles': { default: 'In Zombies, get 10 rapid Kills 50 times' },
-        'Melee': { default: 'In Zombies, get 20 or more consecutive Kills without getting hit 20 times' },
+        'Melee': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
         'Brokovnice': { default: 'In Zombies, get 10 rapid Kills 50 times' },
         'Sniper Rifles': { default: 'In Zombies, get 10 rapid Kills 50 times' },
         'Submachine Guns': { default: 'In Zombies, get 10 rapid Kills 50 times' }
@@ -131,18 +131,18 @@ export default [
     name: 'Deadeye',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Get 100 Long Range Kills' },
-        'Pistole': { default: 'Get 100 Long Range Kills' },
+        'Assault Rifles': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
+        'Pistole': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
         'Launchery': {
-          default: 'Destroy 3 Enemy Killstreaks in 1 Game 30 Times',
-          'MK11 Launcher': 'Get 50 Triple Kills'
+          default: 'Zničit 3 nepřátelský Killstreaky v 1 hře 30x krát',
+          'MK11 Launcher': 'Dát 50 Triple Killů'
         },
-        'Light Machine Guns': { default: 'Get 100 Long Range Kills' },
-        'Marksman Rifles': { default: 'Get 100 Long Range Kills' },
-        'Melee': { default: 'Get 30 Kills While Enemy is Stunned or Flashed' },
-        'Brokovnice': { default: 'Get 100 Long Range Kills' },
-        'Sniper Rifles': { default: 'Get 100 Long Range Kills' },
-        'Submachine Guns': { default: 'Get 100 Long Range Kills' }
+        'Light Machine Guns': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
+        'Marksman Rifles': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
+        'Melee': { default: 'Dát 30 Killů když je nepřítel ovlivněn Stun nebo Flash granátem' },
+        'Brokovnice': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
+        'Sniper Rifles': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
+        'Submachine Guns': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
@@ -412,13 +412,13 @@ export default [
         }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 20 or more consecutive Kills without getting hit 20 times' },
-        'Pistole': { default: 'In Zombies, get 20 or more consecutive Kills without getting hit 20 times' },
-        'Light Machine Guns': { default: 'In Zombies, get 20 or more consecutive Kills without getting hit 20 times' },
-        'Marksman Rifles': { default: 'In Zombies, get 20 or more consecutive Kills without getting hit 20 times' },
-        'Brokovnice': { default: 'In Zombies, get 20 or more consecutive Kills without getting hit 20 times' },
-        'Sniper Rifles': { default: 'In Zombies, get 20 or more consecutive Kills without getting hit 20 times' },
-        'Submachine Guns': { default: 'In Zombies, get 20 or more consecutive Kills without getting hit 20 times' }
+        'Assault Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
+        'Pistole': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
+        'Light Machine Guns': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
+        'Marksman Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
+        'Brokovnice': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
+        'Sniper Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
+        'Submachine Guns': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' }
       }
     }
   },

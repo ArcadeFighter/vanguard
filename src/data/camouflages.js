@@ -97,22 +97,22 @@ export default [
     name: 'Reptilian',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Dát 5 Killů bez smrti 30x krát' },
-        'Pistole': { default: 'Dát 5 Killů bez smrti 30x krát' },
+        'Assault Rifles': { default: 'Dát 5 Killů bez smrti 30krát' },
+        'Pistole': { default: 'Dát 5 Killů bez smrti 30krát' },
         'Launchery': {
           default: 'Zničit 50 nepřátelských vzdušných Killstreaků',
           'Panzerfaust': 'Dát 50 Longshot Killů (na velkou vzdálenost)',
           'MK11 Launcher': 'Dát 50 Double Killů'
         },
-        'Light Machine Guns': { default: 'Dát 5 Killů bez smrti 30x krát' },
-        'Marksman Rifles': { default: 'Dát 5 Killů bez smrti 30x krát' },
+        'Light Machine Guns': { default: 'Dát 5 Killů bez smrti 30krát' },
+        'Marksman Rifles': { default: 'Dát 5 Killů bez smrti 30krát' },
         'Melee': { default: 'Dát 30 Double Killů' },
-        'Brokovnice': { default: 'Dát 5 Killů bez smrti 30x krát' },
+        'Brokovnice': { default: 'Dát 5 Killů bez smrti 30krát' },
         'Sniper Rifles': {
-          default: 'Dát 5 Killů bez smrti 30 krát',
+          default: 'Dát 5 Killů bez smrti 30krát',
           '3-Line Rifle': 'Dát 100 Killů v leže'
         },
-        'Submachine Guns': { default: 'Dát 5 Killů bez smrti 30x krát' }
+        'Submachine Guns': { default: 'Dát 5 Killů bez smrti 30krát' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 10 rapid Kills 50 times' },
@@ -131,18 +131,18 @@ export default [
     name: 'Deadeye',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
-        'Pistole': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
+        'Assault Rifles': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
+        'Pistole': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
         'Launchery': {
-          default: 'Zničit 3 nepřátelský Killstreaky v 1 hře 30x krát',
+          default: 'Zničit 3 nepřátelský Killstreaky v 1 hře 30krát',
           'MK11 Launcher': 'Dát 50 Triple Killů'
         },
-        'Light Machine Guns': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
-        'Marksman Rifles': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
+        'Light Machine Guns': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
+        'Marksman Rifles': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
         'Melee': { default: 'Dát 30 Killů když je nepřítel ovlivněn Stun nebo Flash granátem' },
-        'Brokovnice': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
-        'Sniper Rifles': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' },
-        'Submachine Guns': { default: 'Dát 100 Long Range Killů (ve velkou vzdálenost)' }
+        'Brokovnice': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
+        'Sniper Rifles': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
+        'Submachine Guns': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
@@ -161,13 +161,13 @@ export default [
     name: 'Berserker',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Get 100 Close Range Kills' },
-        'Pistole': { default: 'Get 100 Close Range Kills' },
-        'Light Machine Guns': { default: 'Get 100 Close Range Kills' },
-        'Marksman Rifles': { default: 'Get 100 Close Range Kills' },
-        'Brokovnice': { default: 'Get 100 Close Range Kills' },
-        'Sniper Rifles': { default: 'Get 100 Close Range Kills' },
-        'Submachine Guns': { default: 'Get 100 Close Range Kills' }
+        'Assault Rifles': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' },
+        'Pistole': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' },
+        'Light Machine Guns': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' },
+        'Marksman Rifles': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' },
+        'Brokovnice': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' },
+        'Sniper Rifles': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' },
+        'Submachine Guns': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 100 Boom-Schreier Eliminations' },

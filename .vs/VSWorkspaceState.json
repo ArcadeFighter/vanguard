@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\store"
+    "\\src\\data"
   ],
+  "SelectedNode": "\\src\\data\\camouflages.js",
   "PreviewInSolutionExplorer": false
 }

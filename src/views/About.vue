@@ -37,7 +37,7 @@ export default {
       features: [
         {
           title: 'Automatické ukládání',
-          description: 'Tvůj profress se automaticky úkladá.',
+          description: 'Tvůj progress se automaticky úkladá.',
           icon: 'save-outline'
         },
         {

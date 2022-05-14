@@ -16,7 +16,7 @@
       <p>Aplikace je postavena na <a href="https://vuejs.org/">Vue</a> a hostovaná na <a href="https://vercel.com/">Vercel</a>. Kód stránky je dostupný na <a href="https://github.com/carlssonemil/vanguard">GitHubu</a>.</p>
     
       <h4>Tracker pro DM Ultra a Dark Aether</h4>
-      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Black Ops Cold War</i>? Najdeš ho <a href="https://coldwar.vercel.app">TADY</a>.</p>
+      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Black Ops Cold War</i>? Najdeš ho <a href="https://coldwar.arcadex.cz">TADY</a>.</p>
 
       <h4>Tracker pro Damascus, MW Reticly a Master Challenge</h4>
       <p>Hledáš tracker na kamufláže z <i>Call of Duty: Modern Warfare (2019)</i>? Najdeš ho <a href="https://damascus.vercel.app">TADY</a>.</p>

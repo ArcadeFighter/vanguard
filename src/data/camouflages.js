@@ -47,17 +47,17 @@ export default [
         'Submachine Guns': { default: 'Dát 100 Headshot killů' }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 800 Critical Kills' },
-        'Pistole': { default: 'In Zombies, get 800 Critical Kills' },
-        'Launchery': { default: 'In Zombies, get 3 rapid Kills 50 times' },
-        'Light Machine Guns': { default: 'In Zombies, get 800 Critical Kills' },
-        'Marksman Rifles': { default: 'In Zombies, get 800 Critical Kills' },
+        'Assault Rifles': { default: 'V Zombies, dát 800 Critical Kills' },
+        'Pistole': { default: 'V Zombies, dát 800 Critical Kills' },
+        'Launchery': { default: 'V Zombies, dát 3 rapid Kills 50 times' },
+        'Light Machine Guns': { default: 'V Zombies, dát 800 Critical Kills' },
+        'Marksman Rifles': { default: 'V Zombies, dát 800 Critical Kills' },
         'Melee': {
-          default: 'In Zombies, get 10 rapid Kills 50 times',
-          'Combat Shield': 'In Zombies, get 5 rapid Kills 50 times' },
-        'Brokovnice': { default: 'In Zombies, get 800 Critical Kills' },
-        'Sniper Rifles': { default: 'In Zombies, get 800 Critical Kills' },
-        'Submachine Guns': { default: 'In Zombies, get 800 Critical Kills' }
+          default: 'V Zombies, dát 10 rapid Kills 50 times',
+          'Combat Shield': 'V Zombies, dát 5 rapid Kills 50 times' },
+        'Brokovnice': { default: 'V Zombies, dát 800 Critical Kills' },
+        'Sniper Rifles': { default: 'V Zombies, dát 800 Critical Kills' },
+        'Submachine Guns': { default: 'V Zombies, dát 800 Critical Kills' }
       }
     }
   },
@@ -79,17 +79,17 @@ export default [
         'Submachine Guns': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 4000 Pack-a-Punched Eliminations' },
-        'Pistole': { default: 'In Zombies, get 4000 Pack-a-Punched Eliminations' },
-        'Launchery': { default: 'In Zombies, get 2500 Pack-a-Punched Eliminations' },
-        'Light Machine Guns': { default: 'In Zombies, get 4000 Pack-a-Punched Eliminations' },
-        'Marksman Rifles': { default: 'In Zombies, get 4000 Pack-a-Punched Eliminations' },
+        'Assault Rifles': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
+        'Pistole': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
+        'Launchery': { default: 'V Zombies, dát 2500 Pack-a-Punched Eliminations' },
+        'Light Machine Guns': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
+        'Marksman Rifles': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
         'Melee': {
-          default: 'In Zombies, get 1000 Pack-a-Punched Eliminations',
-          'Combat Shield': 'In Zombies, absorb 100 enemy Melee attacks' },
-        'Brokovnice': { default: 'In Zombies, get 4000 Pack-a-Punched Eliminations' },
-        'Sniper Rifles': { default: 'In Zombies, get 4000 Pack-a-Punched Eliminations' },
-        'Submachine Guns': { default: 'In Zombies, get 4000 Pack-a-Punched Eliminations' }
+          default: 'V Zombies, dát 1000 Pack-a-Punched Eliminations',
+          'Combat Shield': 'V Zombies, absorb 100 enemy Melee attacks' },
+        'Brokovnice': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
+        'Sniper Rifles': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
+        'Submachine Guns': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' }
       }
     }
   },
@@ -115,15 +115,15 @@ export default [
         'Submachine Guns': { default: 'Dát 5 Killů bez smrti 30krát' }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 10 rapid Kills 50 times' },
-        'Pistole': { default: 'In Zombies, get 10 rapid Kills 50 times' },
-        'Launchery': { default: 'In Zombies, kill 5 or more enemies with a single shot 50 times' },
-        'Light Machine Guns': { default: 'In Zombies, get 10 rapid Kills 50 times' },
-        'Marksman Rifles': { default: 'In Zombies, get 10 rapid Kills 50 times' },
+        'Assault Rifles': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
+        'Pistole': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
+        'Launchery': { default: 'V Zombies, kill 5 or more enemies with a single shot 50 times' },
+        'Light Machine Guns': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
+        'Marksman Rifles': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
         'Melee': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
-        'Brokovnice': { default: 'In Zombies, get 10 rapid Kills 50 times' },
-        'Sniper Rifles': { default: 'In Zombies, get 10 rapid Kills 50 times' },
-        'Submachine Guns': { default: 'In Zombies, get 10 rapid Kills 50 times' }
+        'Brokovnice': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
+        'Sniper Rifles': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
+        'Submachine Guns': { default: 'V Zombies, dát 10 rapid Kills 50 times' }
       }
     }
   },
@@ -145,15 +145,15 @@ export default [
         'Submachine Guns': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
-        'Pistole': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
-        'Launchery': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },
-        'Light Machine Guns': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
-        'Marksman Rifles': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
-        'Melee': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },
-        'Brokovnice': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
-        'Sniper Rifles': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
-        'Submachine Guns': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' }
+        'Assault Rifles': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
+        'Pistole': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
+        'Launchery': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
+        'Light Machine Guns': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
+        'Marksman Rifles': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
+        'Melee': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
+        'Brokovnice': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
+        'Sniper Rifles': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
+        'Submachine Guns': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' }
       }
     }
   },
@@ -170,13 +170,13 @@ export default [
         'Submachine Guns': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 100 Boom-Schreier Eliminations' },
-        'Pistole': { default: 'In Zombies, get 100 Boom-Schreier Eliminations' },
-        'Light Machine Guns': { default: 'In Zombies, get 100 Boom-Schreier Eliminations' },
-        'Marksman Rifles': { default: 'In Zombies, get 100 Boom-Schreier Eliminations' },
-        'Brokovnice': { default: 'In Zombies, get 100 Boom-Schreier Eliminations' },
-        'Sniper Rifles': { default: 'In Zombies, get 100 Boom-Schreier Eliminations' },
-        'Submachine Guns': { default: 'In Zombies, get 100 Boom-Schreier Eliminations' }
+        'Assault Rifles': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
+        'Pistole': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
+        'Light Machine Guns': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
+        'Marksman Rifles': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
+        'Brokovnice': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
+        'Sniper Rifles': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
+        'Submachine Guns': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' }
       }
     }
   },
@@ -193,13 +193,13 @@ export default [
         'Submachine Guns': { default: 'Dát 100 Hipfire Killů (bez míření)' }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },
-        'Pistole': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },
-        'Light Machine Guns': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },
-        'Marksman Rifles': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },
-        'Brokovnice': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },
-        'Sniper Rifles': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },
-        'Submachine Guns': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' }
+        'Assault Rifles': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
+        'Pistole': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
+        'Light Machine Guns': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
+        'Marksman Rifles': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
+        'Brokovnice': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
+        'Sniper Rifles': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
+        'Submachine Guns': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' }
       }
     }
   },
@@ -266,13 +266,13 @@ export default [
         }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 2000 Eliminations with 7 Attachments Equipped' },
-        'Pistole': { default: 'In Zombies, get 2000 Eliminations with 7 Attachments Equipped' },
-        'Light Machine Guns': { default: 'In Zombies, get 2000 Eliminations with 7 Attachments Equipped' },
-        'Marksman Rifles': { default: 'In Zombies, get 2000 Eliminations with 7 Attachments Equipped' },
-        'Brokovnice': { default: 'In Zombies, get 2000 Eliminations with 7 Attachments Equipped' },
-        'Sniper Rifles': { default: 'In Zombies, get 2000 Eliminations with 7 Attachments Equipped' },
-        'Submachine Guns': { default: 'In Zombies, get 2000 Eliminations with 7 Attachments Equipped' }
+        'Assault Rifles': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
+        'Pistole': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
+        'Light Machine Guns': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
+        'Marksman Rifles': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
+        'Brokovnice': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
+        'Sniper Rifles': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
+        'Submachine Guns': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' }
       }
     }
   },
@@ -339,13 +339,13 @@ export default [
         }
       },
       aether: {
-        'Assault Rifles': { default: 'In Zombies, get 3 or more rapid Critical Kills 30 times' },
-        'Pistole': { default: 'In Zombies, get 3 or more rapid Critical Kills 30 times' },
-        'Light Machine Guns': { default: 'In Zombies, get 3 or more rapid Critical Kills 30 times' },
-        'Marksman Rifles': { default: 'In Zombies, get 3 or more rapid Critical Kills 30 times' },
-        'Brokovnice': { default: 'In Zombies, get 3 or more rapid Critical Kills 30 times' },
-        'Sniper Rifles': { default: 'In Zombies, get 3 or more rapid Critical Kills 30 times' },
-        'Submachine Guns': { default: 'In Zombies, get 3 or more rapid Critical Kills 30 times' }
+        'Assault Rifles': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
+        'Pistole': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
+        'Light Machine Guns': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
+        'Marksman Rifles': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
+        'Brokovnice': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
+        'Sniper Rifles': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
+        'Submachine Guns': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' }
       }
     }
   },

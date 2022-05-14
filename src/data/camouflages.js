@@ -14,7 +14,7 @@ export default [
         'Marksman Rifles': { default: 'Dát 300 Killů' },
         'Melee': { default: 'Dát 50 Killů' },
         'Brokovnice': { default: 'Dát 400 Killů' },
-        'Sniper Rifles': { default: 'Dát 400 Killů' },
+        'Sniper Rifles': { default: 'Dát 300 Killů' },
         'Submachine Guns': { default: 'Dát 400 Killů' }
       },
       aether: {

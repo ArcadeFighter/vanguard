@@ -131,18 +131,18 @@ export default [
     name: 'Deadeye',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
-        'Pistole': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
+        'Assault Rifles': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' },
+        'Pistole': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' },
         'Launchery': {
           default: 'Zničit 3 nepřátelský Killstreaky v 1 hře 30krát',
           'MK11 Launcher': 'Dát 50 Triple Killů'
         },
-        'Light Machine Guns': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
-        'Marksman Rifles': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
+        'Light Machine Guns': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' },
+        'Marksman Rifles': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' },
         'Melee': { default: 'Dát 30 Killů když je nepřítel ovlivněn Stun nebo Flash granátem' },
-        'Brokovnice': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
-        'Sniper Rifles': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' },
-        'Submachine Guns': { default: 'Dát 100 Long Range Killů (kill na velkou vzdálenost)' }
+        'Brokovnice': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' },
+        'Sniper Rifles': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' },
+        'Submachine Guns': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 2000 Eliminations as a result of an equipped Covenant' },
@@ -184,13 +184,13 @@ export default [
     name: 'Wildcat',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Get 250 Eliminations with 10 Attachments Equipped' },
-        'Pistole': { default: 'Get 50 Kills After Recently Swapping to Your Primary or Secondary Weapon' },
-        'Light Machine Guns': { default: 'Get 100 Bullet Penetration Kills' },
-        'Marksman Rifles': { default: 'Get 50 Quick Scope Kills' },
-        'Brokovnice': { default: 'Get 100 One Shot Kills' },
-        'Sniper Rifles': { default: 'Get 50 Kills While Holding You Breath' },
-        'Submachine Guns': { default: 'Get 100 Hipfire Kills' }
+        'Assault Rifles': { default: 'Dát 250 Killů s 10 nasazenými attachmenty' },
+        'Pistole': { default: 'Dát 50 Killů potom co přehodíš zbraň z primární nebo sekundární zbraně' },
+        'Light Machine Guns': { default: 'Dát 100 Killů skrz prostředí (Wall Bang)' },
+        'Marksman Rifles': { default: 'Dát 50 Quick Scope Killů (ihned po zamíření)' },
+        'Brokovnice': { default: 'Dát 100 One Shot Killů (kill na jednu ránu)' },
+        'Sniper Rifles': { default: 'Dát 50 Killů když zadržuješ dech' },
+        'Submachine Guns': { default: 'Dát 100 Hipfire Killů (bez míření)' }
       },
       aether: {
         'Assault Rifles': { default: 'In Zombies, get 20 Sturmkrieger Eliminations' },

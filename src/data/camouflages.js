@@ -47,17 +47,17 @@ export default [
         'Submachine Guns': { default: 'Dát 100 Headshot killů' }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 800 Critical Kills' },
-        'Pistole': { default: 'V Zombies, dát 800 Critical Kills' },
-        'Launchery': { default: 'V Zombies, dát 3 rapid Kills 50 times' },
-        'Light Machine Guns': { default: 'V Zombies, dát 800 Critical Kills' },
-        'Marksman Rifles': { default: 'V Zombies, dát 800 Critical Kills' },
+        'Assault Rifles': { default: 'V Zombies, dát 800 Critical Killů' },
+        'Pistole': { default: 'V Zombies, dát 800 Critical Killů' },
+        'Launchery': { default: 'V Zombies, dát 3 rapid Killy (3 killy za sebou) 50krát' },
+        'Light Machine Guns': { default: 'V Zombies, dát 800 Critical Killů' },
+        'Marksman Rifles': { default: 'V Zombies, dát 800 Critical Killů' },
         'Melee': {
-          default: 'V Zombies, dát 10 rapid Kills 50 times',
-          'Combat Shield': 'V Zombies, dát 5 rapid Kills 50 times' },
-        'Brokovnice': { default: 'V Zombies, dát 800 Critical Kills' },
-        'Sniper Rifles': { default: 'V Zombies, dát 800 Critical Kills' },
-        'Submachine Guns': { default: 'V Zombies, dát 800 Critical Kills' }
+          default: 'V Zombies, dát 10 rapid Killů (10 killů za sebou) 50krát',
+          'Combat Shield': 'V Zombies, dát 5 rapid Killů (5 killů za sebou) 50krát' },
+        'Brokovnice': { default: 'V Zombies, dát 800 Critical Killů' },
+        'Sniper Rifles': { default: 'V Zombies, dát 800 Critical Killů' },
+        'Submachine Guns': { default: 'V Zombies, dát 800 Critical Killů' }
       }
     }
   },
@@ -79,17 +79,17 @@ export default [
         'Submachine Guns': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
-        'Pistole': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
-        'Launchery': { default: 'V Zombies, dát 2500 Pack-a-Punched Eliminations' },
-        'Light Machine Guns': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
-        'Marksman Rifles': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
+        'Assault Rifles': { default: 'V Zombies, dát 4000 killů s Pack-a-Punchnutou zbraní' },
+        'Pistole': { default: 'V Zombies, dát 4000 killů s Pack-a-Punchnutou zbraní' },
+        'Launchery': { default: 'V Zombies, dát 2500 killů s Pack-a-Punchnutou zbraní' },
+        'Light Machine Guns': { default: 'V Zombies, dát 4000 killů s Pack-a-Punchnutou zbraní' },
+        'Marksman Rifles': { default: 'V Zombies, dát 4000 killů s Pack-a-Punchnutou zbraní' },
         'Melee': {
-          default: 'V Zombies, dát 1000 Pack-a-Punched Eliminations',
-          'Combat Shield': 'V Zombies, absorb 100 enemy Melee attacks' },
-        'Brokovnice': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
-        'Sniper Rifles': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' },
-        'Submachine Guns': { default: 'V Zombies, dát 4000 Pack-a-Punched Eliminations' }
+          default: 'V Zombies, dát 1000 killů s Pack-a-Punchnutou zbraní',
+          'Combat Shield': 'V Zombies, absorbovat 100 zásahů od Zombies' },
+        'Brokovnice': { default: 'V Zombies, dát 4000 killů s Pack-a-Punchnutou zbraní' },
+        'Sniper Rifles': { default: 'V Zombies, dát 4000 killů s Pack-a-Punchnutou zbraní' },
+        'Submachine Guns': { default: 'V Zombies, dát 4000 killů s Pack-a-Punchnutou zbraní' }
       }
     }
   },
@@ -115,15 +115,15 @@ export default [
         'Submachine Guns': { default: 'Dát 5 Killů bez smrti 30krát' }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
-        'Pistole': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
-        'Launchery': { default: 'V Zombies, kill 5 or more enemies with a single shot 50 times' },
-        'Light Machine Guns': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
-        'Marksman Rifles': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
-        'Melee': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
-        'Brokovnice': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
-        'Sniper Rifles': { default: 'V Zombies, dát 10 rapid Kills 50 times' },
-        'Submachine Guns': { default: 'V Zombies, dát 10 rapid Kills 50 times' }
+        'Assault Rifles': { default: 'V Zombies, dát 10 rapid Killů (10 killů za sebou) 50krát' },
+        'Pistole': { default: 'V Zombies, dát 10 rapid Killů (10 killů za sebou) 50krát' },
+        'Launchery': { default: 'V Zombies, zabít 5 nebo více zombies jednou střelou 50krát' },
+        'Light Machine Guns': { default: 'V Zombies, dát 10 rapid Killů (10 killů za sebou) 50krát' },
+        'Marksman Rifles': { default: 'V Zombies, dát 10 rapid Killů (10 killů za sebou) 50krát' },
+        'Melee': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20krát' },
+        'Brokovnice': { default: 'V Zombies, dát 10 rapid Killů (10 killů za sebou) 50krát' },
+        'Sniper Rifles': { default: 'V Zombies, dát 10 rapid Killů (10 killů za sebou) 50krát' },
+        'Submachine Guns': { default: 'V Zombies, dát 10 rapid Killů (10 killů za sebou) 50krát' }
       }
     }
   },
@@ -145,15 +145,15 @@ export default [
         'Submachine Guns': { default: 'Dát 50 Long Range Killů (kill na velkou vzdálenost)' }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
-        'Pistole': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
-        'Launchery': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
-        'Light Machine Guns': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
-        'Marksman Rifles': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
-        'Melee': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
-        'Brokovnice': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
-        'Sniper Rifles': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' },
-        'Submachine Guns': { default: 'V Zombies, dát 2000 Eliminations as a result of an equipped Covenant' }
+        'Assault Rifles': { default: 'V Zombies, dát 2000 Killů které ovlivnil nasazený Covenant' },
+        'Pistole': { default: 'V Zombies, dát 2000 Killů které ovlivnil nasazený Covenant' },
+        'Launchery': { default: 'V Zombies, zabít 20 Sturmkriegerů' },
+        'Light Machine Guns': { default: 'V Zombies, dát 2000 Killů které ovlivnil nasazený Covenant' },
+        'Marksman Rifles': { default: 'V Zombies, dát 2000 Killů které ovlivnil nasazený Covenant' },
+        'Melee': { default: 'V Zombies, zabít 20 Sturmkriegerů' },
+        'Brokovnice': { default: 'V Zombies, dát 2000 Killů které ovlivnil nasazený Covenant' },
+        'Sniper Rifles': { default: 'V Zombies, dát 2000 Killů které ovlivnil nasazený Covenant' },
+        'Submachine Guns': { default: 'V Zombies, dát 2000 Killů které ovlivnil nasazený Covenant' }
       }
     }
   },
@@ -170,13 +170,13 @@ export default [
         'Submachine Guns': { default: 'Dát 100 Close Range Killů (kill když je nepřítel blízko)' }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
-        'Pistole': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
-        'Light Machine Guns': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
-        'Marksman Rifles': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
-        'Brokovnice': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
-        'Sniper Rifles': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' },
-        'Submachine Guns': { default: 'V Zombies, dát 100 Boom-Schreier Eliminations' }
+        'Assault Rifles': { default: 'V Zombies, zabít 100 Boom-Schreierů' },
+        'Pistole': { default: 'V Zombies, zabít 100 Boom-Schreierů' },
+        'Light Machine Guns': { default: 'V Zombies, zabít 100 Boom-Schreierů' },
+        'Marksman Rifles': { default: 'V Zombies, zabít 100 Boom-Schreierů' },
+        'Brokovnice': { default: 'V Zombies, zabít 100 Boom-Schreierů' },
+        'Sniper Rifles': { default: 'V Zombies, zabít 100 Boom-Schreierů' },
+        'Submachine Guns': { default: 'V Zombies, zabít 100 Boom-Schreierů' }
       }
     }
   },
@@ -193,13 +193,13 @@ export default [
         'Submachine Guns': { default: 'Dát 100 Hipfire Killů (bez míření)' }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
-        'Pistole': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
-        'Light Machine Guns': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
-        'Marksman Rifles': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
-        'Brokovnice': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
-        'Sniper Rifles': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' },
-        'Submachine Guns': { default: 'V Zombies, dát 20 Sturmkrieger Eliminations' }
+        'Assault Rifles': { default: 'V Zombies, zabít 20 Sturmkriegerů' },
+        'Pistole': { default: 'V Zombies, zabít 20 Sturmkriegerů' },
+        'Light Machine Guns': { default: 'V Zombies, zabít 20 Sturmkriegerů' },
+        'Marksman Rifles': { default: 'V Zombies, zabít 20 Sturmkriegerů' },
+        'Brokovnice': { default: 'V Zombies, zabít 20 Sturmkriegerů' },
+        'Sniper Rifles': { default: 'V Zombies, zabít 20 Sturmkriegerů' },
+        'Submachine Guns': { default: 'V Zombies, zabít 20 Sturmkriegerů' }
       }
     }
   },
@@ -210,7 +210,7 @@ export default [
         'Assault Rifles': {
           default: 'Dát 100 killů s třemi určitými attachmenty',
           'STG44': 'Get 100 ADS Kills with the Krausnick 220mm Rapid Barrel, 7.62 Gorenko 30 Round Mags, and VDD 27 Precision Stock Equipped',
-          'Bar': 'Get 100 Longshot Kills with the CGC 30" XL Barrel, Pistol Grip Custom Stock, and Discard Proficiency Equipped',
+          'Bar': 'Get 50 Longshot Kills with the CGC 30" XL Barrel, Pistol Grip Custom Stock, and Discard Proficiency Equipped',
           'AS44': 'Get 100 Hipfire Kills with the Empress 400mm Barrel, .30 Russian Short 60 Round Mags, and Steady Proficiency Equipped',
           'Automaton': 'Get 100 Kills While Moving with the 6.5mm Sakura 45 Round Mags, ZAC Skeletal Stock, and Spotter Proficiency Equipped',
           'Itra Burst': 'Get 100 Hipfire Kills with the Imerito 180mm 02BI Barrel, 8mm Klauser 12 Round Fast Mags, and Botti SSI Skeletal Equipped',
@@ -229,9 +229,9 @@ export default [
         },
         'Light Machine Guns': {
           default: 'Dát 100 killů s třemi určitými attachmenty',
-          'Bren': 'Get 100 Longshot Kills with the Queens 775m Scepter Barrel, .303 British 100 Round Drums Mags, and Queens Model 11 BH Stock Equipped',
+          'Bren': 'Get 50 Longshot Kills with the Queens 775m Scepter Barrel, .303 British 100 Round Drums Mags, and Queens Model 11 BH Stock Equipped',
           'MG42': 'Get 100 Hipfire Kills with the Krausnick 355mm Rapid Barrel, Removed Stock, and Tight Grip Proficiency Equipped',
-          'DP27': 'Get 100 100 ADS Kills with the Kovalevskaya 680mm B02D Barrel, 7.62x54mmR 105 Round Pans Mags, and Spotter Proficiency Equipped',
+          'DP27': 'Get 100 ADS Kills with the Kovalevskaya 680mm B02D Barrel, 7.62x54mmR 105 Round Pans Mags, and Spotter Proficiency Equipped',
           'Type 11': 'Get 100 Hipfire Kills While Moving with the Warubachi 352mm Barrel, Shiraishi Skeletal Stock, and Steady Proficiency Equipped',
           'Whitley': 'Get 100 Kills While Crouched or Prone with the 26" Gracey Rapid Barrel, .30-06 120 Round Mags, and CGC R2 Padded Stock Equipped'
         },
@@ -246,33 +246,33 @@ export default [
           'Combat Shotgun': 'Get 100 ADS Kills with the Chariot 16" Short Barrel, 12 Gauge 5 Round Tube Mags, and CGC 2M Wire Stock Equipped',
           'Double Barrel': 'Dát 100 Headshot killů with the Wilkie Huntsman Barrel, Wilkie Marksman Stock, and Vital Proficiency Equipped',
           'Gracey Auto': 'Get 100 Hipfire Kills with the CGC 22" Rapid Barrel, 12 Gauge 7 Round Mags, and Chariot Sport Stock Equipped',
-          'Einhorn Revolving': 'Get 50 Kills Without Taking Damage from that Enemy with the Sawed-Off Barrel, 16 Gauge 7 Round Cylinder Mags, and Reisdorf Folding Stock Equipped'
+          'Einhorn Revolving': 'Get 100 Kills Without Taking Damage from that Enemy with the Sawed-Off Barrel, 16 Gauge 7 Round Cylinder Mags, and Reisdorf Folding Stock Equipped'
         },
         'Sniper Rifles': {
           default: 'Dát 100 killů s třemi určitými attachmenty',
           'Kar98k': 'Get 100 Kills Without Taking Damage from that Enemy with the Krausnick Scout Barrel, 6.5mm Sakura 5 Round Mags, and the Unmarked Proficiency Equipped',
-          'Type 99': 'Get 100 Longshot Kills with the Shiraishi 712mm Sniper Barrel, Shiraishi Precision Stock, and Spotter Proficiency Equipped',
-          '3-Line Rifle': 'Get 100 Longshot Kills with the 270mm Voz Carbine Barrel, .30-06 20 Round Mags, and Kovalevskaya S01 Stock Equipped' ,
+          'Type 99': 'Get 50 Longshot Kills with the Shiraishi 712mm Sniper Barrel, Shiraishi Precision Stock, and Spotter Proficiency Equipped',
+          '3-Line Rifle': 'Get 50 Longshot Kills with the 270mm Voz Carbine Barrel, .30-06 20 Round Mags, and Kovalevskaya S01 Stock Equipped' ,
           'Gorenko Anti-Tank Rifle': 'Get 100 Kills After Recently Aiming Down Sights with the 420mm Empress Barrel, ZAC Custom Precision Stock, and Discard Proficiency Equipped'
         },
         'Submachine Guns': {
           default: 'Dát 100 killů s třemi určitými attachmenty',
           'MP-40': 'Get 100 Longshot Kills with the Krausnick 317mm 04B Barrel, 8mm Kurz 32 Round Mags, and VDD 34M Padded Stock Equipped',
           'M1928': 'Get 100 Kills Without Taking Damage from that Enemy with the Chariot 2.5" Rapid Barrel, CGC Wire Grip Stock, and Disable Proficiency Equipped',
-          'Type 100': 'Get 100 Longshot Kills with the Warubachi 134mm Rapid Barrel, 8mm Kurz 40 Round Drums Mags, and Shiraishi T100 Stock Equipped',
+          'Type 100': 'Get 50 Longshot Kills with the Warubachi 134mm Rapid Barrel, 8mm Kurz 40 Round Drums Mags, and Shiraishi T100 Stock Equipped',
           'PPSh-41': 'Get 100 Kills Without Taking Damage from that Enemy with the 8mm Nambu 71 Round Mags, Empress S12P Stock, and Tiger Grip Proficiency Equipped',
           'Sten': 'Get 100 ADS KIils with the Hockenson 248mm Burst Barrel, .45 ACP 20 Round Fast Mags, and Gawain Custom Stock Equipped',
           'Owen Gun': 'Get 100 Hipfire Kills While Moving with the 9mm 72 Round Mags, LOR Folding Stock, and Steady Proficiency Equipped'
         }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
-        'Pistole': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
-        'Light Machine Guns': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
-        'Marksman Rifles': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
-        'Brokovnice': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
-        'Sniper Rifles': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' },
-        'Submachine Guns': { default: 'V Zombies, dát 2000 Eliminations with 7 Attachments Equipped' }
+        'Assault Rifles': { default: 'V Zombies, dát 2000 killů s nasazenými 7 attachmenty na zbrani' },
+        'Pistole': { default: 'V Zombies, dát 2000 killů s nasazenými 7 attachmenty na zbrani' },
+        'Light Machine Guns': { default: 'V Zombies, dát 2000 killů s nasazenými 7 attachmenty na zbrani' },
+        'Marksman Rifles': { default: 'V Zombies, dát 2000 killů s nasazenými 7 attachmenty na zbrani' },
+        'Brokovnice': { default: 'V Zombies, dát 2000 killů s nasazenými 7 attachmenty na zbrani' },
+        'Sniper Rifles': { default: 'V Zombies, dát 2000 killů s nasazenými 7 attachmenty na zbrani' },
+        'Submachine Guns': { default: 'V Zombies, dát 2000 killů s nasazenými 7 attachmenty na zbrani' }
       }
     }
   },
@@ -339,13 +339,13 @@ export default [
         }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
-        'Pistole': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
-        'Light Machine Guns': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
-        'Marksman Rifles': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
-        'Brokovnice': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
-        'Sniper Rifles': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' },
-        'Submachine Guns': { default: 'V Zombies, dát 3 or more rapid Critical Kills 30 times' }
+        'Assault Rifles': { default: 'V Zombies, dát 3 nebo více rapid Critical Killů (3 critical killy za sebou nebo více) 30krát' },
+        'Pistole': { default: 'V Zombies, dát 3 nebo více rapid Critical Killů (3 critical killy za sebou nebo více) 30krát' },
+        'Light Machine Guns': { default: 'V Zombies, dát 3 nebo více rapid Critical Killů (3 critical killy za sebou nebo více) 30krát' },
+        'Marksman Rifles': { default: 'V Zombies, dát 3 nebo více rapid Critical Killů (3 critical killy za sebou nebo více) 30krát' },
+        'Brokovnice': { default: 'V Zombies, dát 3 nebo více rapid Critical Killů (3 critical killy za sebou nebo více) 30krát' },
+        'Sniper Rifles': { default: 'V Zombies, dát 3 nebo více rapid Critical Killů (3 critical killy za sebou nebo více) 30krát' },
+        'Submachine Guns': { default: 'V Zombies, dát 3 nebo více rapid Critical Killů (3 critical killy za sebou nebo více) 30krát' }
       }
     }
   },
@@ -358,12 +358,12 @@ export default [
           'STG44': 'Get 100 Kills While Moving with the .30 Russian Short 20 Round Mags, Konstanz Tactical Stock, and Pressure Proficiency Equipped',
           'Bar': 'Get 100 Kills While Moving with the Cooper 21" Scythe Barrel, 8mm Klauser 20 Round Mags, and Acrobatic Proficiency Equipped',
           'AS44': 'Get 100 Kills While Moving with the Empress Falchion A Barrel, Kovalevskaya Custom Stock, and Disable Proficiency Equipped',
-          'Automaton': 'Get 100 Longshot Kills with the Zac 600mm BFA Barrel, 6.5MM Sakura 75 Round Drums Mags, and Anastasia Padded Stock Equipped',
+          'Automaton': 'Get 50 Longshot Kills with the Zac 600mm BFA Barrel, 6.5MM Sakura 75 Round Drums Mags, and Anastasia Padded Stock Equipped',
           'Itra Burst': 'Get 100 Quickscope Kills with the 6.5mm Sakura 20 Round Mags, Botti DII Grip Stock, and Quickscope Proficiency Equipped',
           'NZ-41': 'Get 100 Kills Without Taking Damage from that Enemy with the Orbweaver Custom Barrel, 8mm Klauser 30 Round Mags, and Orbweaver Folding Stock Equipped',
           'Volkssturmgewehr': 'Get 100 Kills Without Taking Damage from that Enemy with the Krausnick 428mm 05V Barrel, 7.62 Gorenko 30 Round Mags, and Perfectionist Proficiency Equipped',
           'Cooper Carbine': 'Get 100 Close Range Kills with the 8" Ragdoll Short Barrel, .30 Carbine 20 Round Mags, and Cooper 45RS Stock',
-          'KG M40': 'Get 100 Long Range Kills with the Nilsson 515mm Burst Barrel, .30-06 50 Round Drums, and Brace Proficiency Equipped'
+          'KG M40': 'Get 50 Long Range Kills with the Nilsson 515mm Burst Barrel, .30-06 50 Round Drums, and Brace Proficiency Equipped'
         },
         'Pistole': {
           default: 'Get 50 Kills with Certain Attachments Equipped',
@@ -379,11 +379,11 @@ export default [
           'MG42': 'Get 100 Longshot Kills with the Krausnick 450mm1342MG Barrel, 13mm Anti-Material 125 Round Mags, and Wreck Proficiency Equipped',
           'DP27': 'Get 100 Kills While Crouched or Prone with the .30-06 63 Round Pans Mags, Empress VZV Stock, and Defender Proficiency Equipped',
           'Type 11': 'Get 100 ADS Kills with the Sakura 261mm Barrel, 6.5mm Sakura 30 Round Mags, and Fleet Proficiency Equipped',
-          'Whitley': 'Get 100 Long Range Kills with the 28" Gracey Mk. 9 Barrel, .50 BMG 160 Round Boxes, and Frenzy Proficiency Equipped'
+          'Whitley': 'Get 50 Long Range Kills with the 28" Gracey Mk. 9 Barrel, .50 BMG 160 Round Boxes, and Frenzy Proficiency Equipped'
          },
         'Marksman Rifles': {
           default: 'Dát 100 killů s třemi určitými attachmenty',
-          'M1 Garand': 'Get 100 Longshot Kills with the Cooper 25" Custom Barrel, .30-06 12 Round Mags, and Acquisition Proficiency Equipped',
+          'M1 Garand': 'Get 50 Longshot Kills with the Cooper 25" Custom Barrel, .30-06 12 Round Mags, and Acquisition Proficiency Equipped',
           'SVT-40': 'Get 100 Kills Without Taking Damage from that Enemy with the Kovalevskaya Custom Barrel, 6.5 Sakura 15 Round Mags, and Perfectionist Proficiency Equipped',
           'G-43': 'Get 100 ADS Kills with the Wyvern Burst Barrel, 8mm Klauser 20 Round Mags, and Fitzherbert Reinforced Stock Equipped'
         },
@@ -396,7 +396,7 @@ export default [
         },
         'Sniper Rifles': {
           default: 'Dát 100 killů s třemi určitými attachmenty',
-          'Kar98k': 'Get 100 Longshot Kills with the VDD 660mm 05HE Barrel, VDD Thumbhole Stock, and Shrouded Proficiency Equipped',
+          'Kar98k': 'Get 50 Longshot Kills with the VDD 660mm 05HE Barrel, VDD Thumbhole Stock, and Shrouded Proficiency Equipped',
           'Type 99': 'Get 100 ADS Kills with the Sakura 776mm Barrel, 6.5mm Sakura 3 Round Fast Mags, and Sakura CVR Custom Stock Equipped',
           '3-Line Rifle': 'Dát 100 Headshot killů with the 500mm MN Custom Barrel, .30-06 20 Round Mags, and Hardscope Proficiency Equipped',
           'Gorenko Anti-Tank Rifle': 'Get 100 Kills While Crouched or Prone with the 440mm Anastasia Custom Barrel, 13mm AM 10 Round Mags, and Kovalevskaya Type 2 Padded Stock Equipped'
@@ -412,13 +412,13 @@ export default [
         }
       },
       aether: {
-        'Assault Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
-        'Pistole': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
-        'Light Machine Guns': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
-        'Marksman Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
-        'Brokovnice': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
-        'Sniper Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' },
-        'Submachine Guns': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20x krát' }
+        'Assault Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20krát' },
+        'Pistole': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20krát' },
+        'Light Machine Guns': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20krát' },
+        'Marksman Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20krát' },
+        'Brokovnice': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20krát' },
+        'Sniper Rifles': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20krát' },
+        'Submachine Guns': { default: 'V Zombies, dát 20 nebo více Killů po sobě, aniž by jsi dostal hit 20krát' }
       }
     }
   },

@@ -110,7 +110,7 @@ export default {
                   event.target.value = null;
                   this.$notify({
                     type: 'success',
-                    title: `Progress  sp n  importov n!`,
+                    title: `Progress úspěšně importován!`,
                   });
                 });
             }, 500);

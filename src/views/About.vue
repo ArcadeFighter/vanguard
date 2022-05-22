@@ -19,7 +19,7 @@
       <p>Hledáš tracker na kamufláže z <i>Call of Duty: Black Ops Cold War</i>? Najdeš ho <a href="https://coldwar.arcadex.cz">TADY</a>.</p>
 
       <h4>Tracker pro Damascus, MW Reticly a Master Challenge</h4>
-      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Modern Warfare (2019)</i>? Najdeš ho <a href="https://damascus.vercel.app">TADY</a>.</p>
+      <p>Hledáš tracker na kamufláže z <i>Call of Duty: Modern Warfare (2019)</i>? Najdeš ho <a href="https://mw.arcadex.cz">TADY</a>.</p>
 
       <h4>Připoj se na náš Discord</h4>
       <p>Chceš vědět víc informací o Call of Duty? Tak se připoj na náš <a href="https://discord.gg/adisbak">Discord</a>! Buď součástí velké Call of Duty komunity!</p>

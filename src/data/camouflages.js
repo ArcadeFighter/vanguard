@@ -65,18 +65,18 @@ export default [
     name: 'Predatory Ambition',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Dát 50 MultiKillů (Double killy, Triple killy a další)' },
-        'Pistole': { default: 'Dát 50 MultiKillů (Double killy, Triple killy a další)' },
+        'Assault Rifles': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Pistole': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
         'Launchery': {
           default: 'Zničit 50 Pozemních Killstreaků nebo Field Upgradů',
           'MK11 Launcher': 'Dát 50 Longshot Killů (na velkou vzdálenost)'
         },
-        'Light Machine Guns': { default: 'Dát 50 MultiKillů (Double killy, Triple killy a další)' },
-        'Marksman Rifles': { default: 'Dát 50 MultiKillů (Double killy, Triple killy a další)' },
+        'Light Machine Guns': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Marksman Rifles': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
         'Melee': { default: 'Dát 30 Killů ve skluzu' },
-        'Brokovnice': { default: 'Dát 50 MultiKillů (Double killy, Triple killy a další)' },
-        'Sniper Rifles': { default: 'Dát 50 MultiKillů (Double killy, Triple killy a další)' },
-        'Submachine Guns': { default: 'Dát 50 MultiKillů (Double killy, Triple killy a další)' }
+        'Brokovnice': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Sniper Rifles': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' },
+        'Submachine Guns': { default: 'Dát 50 Multikillů (Double killy, Triple killy a další)' }
       },
       aether: {
         'Assault Rifles': { default: 'V Zombies, dát 4000 Killů s Pack-a-Punchnutou zbraní' },
@@ -184,7 +184,10 @@ export default [
     name: 'Wildcat',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Dát 250 Killů s 10 nasazenými attachmenty' },
+        'Assault Rifles': { 
+          default: 'Dát 250 Killů s 10 nasazenými attachmenty',
+          'Nikita AVT': 'Dát 100 Killů s 10 nasazenými attachmenty'
+        },
         'Pistole': { default: 'Dát 50 Killů potom co přehodíš zbraň z primární nebo sekundární zbraně' },
         'Light Machine Guns': { default: 'Dát 100 Killů skrz prostředí (Wall Bang)' },
         'Marksman Rifles': { default: 'Dát 50 Quick Scope Killů (ihned po zamíření)' },
@@ -217,7 +220,8 @@ export default [
           'NZ-41': 'Dát 100 Headshot Killů s nasazenými attachmenty Orbweaver 360mm BC Barrel, LOR MK3 SC Stock a Defender Kit',
           'Volkssturmgewehr': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty VDD 287mm Barrel, 8mm Kurz 20 Round Fast Mags a Krausnick S12V PS Stock' ,
           'Cooper Carbine': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty 22" Cooper Custom Barrel, Cooper Custom Padded Stock a Hardscope Proficiency',
-          'KG M40': 'Dát 100 Headshot Killů s nasazenými attachmenty VDD 24SZ Adjustable Stock, 8mm Klauser 20 Round Mags a Discard Proficiency'
+          'KG M40': 'Dát 100 Headshot Killů s nasazenými attachmenty VDD 24SZ Adjustable Stock, 8mm Klauser 20 Round Mags a Discard Proficiency',
+          'Nikita AVT': 'Dát 50 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Kovalevskaya 546mm Sniper Barrel, ZAC MS Stock a Brace Proficiency'
         },
         'Pistole': {
           default: 'Dát 50 Kills with Certain Attachments',
@@ -236,7 +240,7 @@ export default [
           'Whitley': 'Dát 100 Killů když jsi skrčený nebo v leže s nasazenými attachmenty 26" Gracey Rapid Barrel, .30-06 120 Round Mags a CGC R2 Padded Stock'
         },
         'Marksman Rifles': {
-            default: 'Dát 100 Killů s třemi určitými nasazenými attachmenty',
+          default: 'Dát 100 Killů s třemi určitými nasazenými attachmenty',
           'M1 Garand': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Cooper 25" Custom Barrel, CGC G2 Thumbhole Stock a .303 8 Round Mags',
           'SVT-40': 'Dát 100 Headshot Killů s nasazenými attachmenty .303 British 10 Round Mags, Kovalevskaya S02 Weighted Stock a Focus Proficiency',
           'G-43': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty .30-06 10 Round Mags, ZP MS02 Custom Stock a Quickscope Proficiency'
@@ -257,12 +261,14 @@ export default [
         },
         'Submachine Guns': {
           default: 'Dát 100 Killů s třemi určitými nasazenými attachmenty',
-          'MP-40': 'Dát 100 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Krausnick 317mm 04B Barrel, 8mm Kurz 32 Round Mags a VDD 34M Padded Stock',
+          'MP-40': 'Dát 50 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Krausnick 317mm 04B Barrel, 8mm Kurz 32 Round Mags a VDD 34M Padded Stock',
           'M1928': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Chariot 2.5" Rapid Barrel, CGC Wire Grip Stock a Disable Proficiency',
           'Type 100': 'Dát 50 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Warubachi 134mm Rapid Barrel, 8mm Kurz 40 Round Drums Mags a Shiraishi T100 Stock',
           'PPSh-41': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty 8mm Nambu 71 Round Mags, Empress S12P Stock a Tiger Grip Proficiency',
           'Sten': 'Dát 100 ADS KIils with the Hockenson 248mm Burst Barrel, .45 ACP 20 Round Fast Mags a Gawain Custom Stock',
-          'Owen Gun': 'Dát 100 Hipfire Killů když se pohybuješ s nasazenými attachmenty 9mm 72 Round Mags, LOR Folding Stock a Steady Proficiency'
+          'Owen Gun': 'Dát 100 Hipfire Killů (bez zamíření) když se pohybuješ s nasazenými attachmenty 9mm 72 Round Mags, LOR Folding Stock a Steady Proficiency',
+          'Welgun': 'Dát 100 Hipfire Killů (bez zamíření) s nasazenými attachmenty Gawain S-Custom Stock, 9mm 64 Round Mags a Gung Ho Proficiency',
+          'Armaguerra 43': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Imerito 550M 03P Barrel, Imerito TA Skeletal Stock a Hardscope Proficiency'
         }
       },
       aether: {
@@ -290,7 +296,8 @@ export default [
           'NZ-41': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Ravenwood 480mm NO.2 Barrel, .303 British 20 Round Fast Mags, Acrobatic Proficiency',
           'Volkssturmgewehr': 'Dát 100 Killů když se pohybuješ s nasazenými attachmenty 8mm Kurz 60 Round Drums Mags, SA Converted Stock a Gung-Ho Proficiency',
           'Cooper Carbine': 'Dát 100 Headshot Killů s nasazenými attachmenty 18" Ragdoll G45 Barrel, 9mm 60 Round Drum Mags a Vital Proficiency',
-          'KG M40': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty VDD 390mm Rapid Barrel, 8mm Klauser 50 Round Drums a VDD 22G Padded Stock'
+          'KG M40': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty VDD 390mm Rapid Barrel, 8mm Klauser 50 Round Drums a VDD 22G Padded Stock',
+          'Nikita AVT': 'Dát 50 Killů ihned po nabití s nasazenými attachmenty ZAC 444mm Short Barrel, ZAC Padded Stock a Sleight of Hand Proficiency'
         },
         'Pistole': {
           default: 'Dát 50 Kills with Certain Attachments',
@@ -335,7 +342,9 @@ export default [
           'Type 100': 'Dát 100 Killů když jsi skrčený nebo v leže s nasazenými attachmenty Shiraishi 374mm Barrel, Shiraishi Weighted Stock a Acrobatic Proficiency',
           'PPSh-41': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty ZAC 300mm Barrel, .30 Russian Short 35 Round Mags a Disable Proficiency',
           'Sten': 'Dát 100 Killů když se pohybuješ s nasazenými attachmenty 7.62 Gorenko 32 Round Mags, Gawain Para Stock a Steady Proficiency',
-          'Owen Gun': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Hockenson 305mm Precision Barrel, 9mm 20 Round Mags a Acrobatic Proficiency'
+          'Owen Gun': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Hockenson 305mm Precision Barrel, 9mm 20 Round Mags a Acrobatic Proficiency',
+          'Welgun': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty 320mm SA Shrouded Barrel, SA 43M Pack Stock a 7.62 Gorenko 48 Round Mags',
+          'Armaguerra 43': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Perfetto Custom Barrel, Imerito TA Skeletal Stock a Discard Proficiency'
         }
       },
       aether: {
@@ -363,7 +372,8 @@ export default [
           'NZ-41': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Orbweaver Custom Barrel, 8mm Klauser 30 Round Mags a Orbweaver Folding Stock',
           'Volkssturmgewehr': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Krausnick 428mm 05V Barrel, 7.62 Gorenko 30 Round Mags a Perfectionist Proficiency',
           'Cooper Carbine': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty 8" Ragdoll Short Barrel, .30 Carbine 20 Round Mags a Cooper 45RS Stock',
-          'KG M40': 'Dát 50 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Nilsson 515mm Burst Barrel, .30-06 50 Round Drums a Brace Proficiency'
+          'KG M40': 'Dát 50 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Nilsson 515mm Burst Barrel, .30-06 50 Round Drums a Brace Proficiency',
+          'Nikita AVT': 'Dát 200 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty ZAC 358mm Rapid Barrel, 6.5 Sakura 60 Round Drums a Empress Notch Stock'
         },
         'Pistole': {
           default: 'Dát 50 Kills with Certain Attachments',
@@ -375,8 +385,8 @@ export default [
         },
         'Light Machine Guns': {
           default: 'Dát 100 Killů s třemi určitými nasazenými attachmenty',
-          'Bren': 'Dát 100 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Queens 705mm Royal Barrel, Hockenson SP2B Stock a Dismantle Proficiency',
-          'MG42': 'Dát 100 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Krausnick 450mm1342MG Barrel, 13mm Anti-Material 125 Round Mags a Wreck Proficiency',
+          'Bren': 'Dát 50 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Queens 705mm Royal Barrel, Hockenson SP2B Stock a Dismantle Proficiency',
+          'MG42': 'Dát 50 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty Krausnick 450mm1342MG Barrel, 13mm Anti-Material 125 Round Mags a Wreck Proficiency',
           'DP27': 'Dát 100 Killů když jsi skrčený nebo v leže s nasazenými attachmenty .30-06 63 Round Pans Mags, Empress VZV Stock a Defender Proficiency',
           'Type 11': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Sakura 261mm Barrel, 6.5mm Sakura 30 Round Mags a Fleet Proficiency',
           'Whitley': 'Dát 50 Longshot Killů (na velkou vzdálenost) s nasazenými attachmenty 28" Gracey Mk. 9 Barrel, .50 BMG 160 Round Boxes a Frenzy Proficiency'
@@ -408,7 +418,9 @@ export default [
           'Type 100': 'Dát 100 Hipfire Killů když se pohybuješ s nasazenými attachmenty 8mm Nambu 20 Round Mags, Sakura Type 2 Stock a Fleet Proficiency',
           'PPSh-41': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Kovalevskaya 230mm BO3P Barrel, 7.62mm Gorenko 71 Round Mags a ZAC Folding Stock',
           'Sten': 'Dát 100 Headshot Killů s nasazenými attachmenty Hockenson 348mm B13S Barrel, 9mm 20 Round Mags. and Steady Proficiency',
-          'Owen Gun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty Gawain 188mm Shrouded Barrel, Gawain H4 Folding Stock a Wreck Proficiency'
+          'Owen Gun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty Gawain 188mm Shrouded Barrel, Gawain H4 Folding Stock a Wreck Proficiency',
+          'Welgun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty 120mm Gawain Short Barrel, Removed Stock a Momentum Proficiency',
+          'Armaguerra 43': 'Dát 100 Multikillů (Double killy, Triple killy a další) s nasazenými attachmenty 9mm 60 Round Mags, Botti DA Stock a Vital Proficiency'
         }
       },
       aether: {

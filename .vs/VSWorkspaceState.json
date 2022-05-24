@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\data",
+    "\\src\\views"
   ],
-  "SelectedNode": "\\C:\\Users\\U40194030\\Source\\Repos\\vanguard",
+  "SelectedNode": "\\src\\data\\camouflages.js",
   "PreviewInSolutionExplorer": false
 }

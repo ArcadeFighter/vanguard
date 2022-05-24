@@ -3,8 +3,9 @@
     "",
     "\\src",
     "\\src\\data",
+    "\\src\\data\\weapons",
     "\\src\\views"
   ],
-  "SelectedNode": "\\src\\data\\camouflages.js",
+  "SelectedNode": "\\src\\data\\weapons\\melee.js",
   "PreviewInSolutionExplorer": false
 }

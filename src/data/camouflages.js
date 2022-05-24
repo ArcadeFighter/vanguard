@@ -452,7 +452,7 @@ export default [
           'M1928': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty .45 ACP 30 Round Fast Mags, Chariot Marksman Stock a Steady Proficiency',
           'Type 100': 'Dát 100 Hipfire Killů (bez zaměřování) když se pohybuješ s nasazenými attachmenty 8mm Nambu 20 Round Mags, Sakura Type 2 Stock a Fleet Proficiency',
           'PPSh-41': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Kovalevskaya 230mm BO3P Barrel, 7.62mm Gorenko 71 Round Mags a ZAC Folding Stock',
-          'Sten': 'Dát 50 Headshot Killů s nasazenými attachmenty Hockenson 348mm B13S Barrel, 9mm 20 Round Mags. and Steady Proficiency',
+          'Sten': 'Dát 50 Headshot Killů s nasazenými attachmenty Hockenson 348mm B13S Barrel, 9mm 30 Round Mags. and Steady Proficiency',
           'Owen Gun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty Gawain 188mm Shrouded Barrel, Gawain H4 Folding Stock a Wreck Proficiency',
           'Welgun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty 120mm Gawain Short Barrel, Removed Stock a Momentum Proficiency',
           'Armaguerra 43': 'Dát 100 Multikillů (Double killy, Triple killy a další) s nasazenými attachmenty 9mm 60 Round Mags, Botti DA Stock a Vital Proficiency'

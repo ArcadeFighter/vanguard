@@ -36,7 +36,10 @@ export default [
     name: 'Surgical',
     requirements: {
       atomic: {
-        'Assault Rifles': { default: 'Dát 100 Headshot Killů' },
+        'Assault Rifles': {
+          default: 'Dát 100 Headshot Killů',
+          'Nikita AVT': 'Dát 50 Headshot Killů'
+        },
         'Pistole': { default: 'Dát 100 Headshot Killů' },
         'Launchery': { default: 'Zničit 100 nepřátelských killstreaků, vybavení (C4, mina apod.) nebo Field Upgradů' },
         'Light Machine Guns': { default: 'Dát 100 Headshot Killů' },

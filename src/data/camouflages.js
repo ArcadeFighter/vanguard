@@ -302,7 +302,8 @@ export default [
           'Sten': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Hockenson 248mm Burst Barrel, .45 ACP 20 Round Fast Mags a Gawain Custom Stock',
           'Owen Gun': 'Dát 100 Hipfire Killů (bez zamíření) když se pohybuješ s nasazenými attachmenty 9mm 72 Round Mags, LOR Folding Stock a Steady Proficiency',
           'Welgun': 'Dát 100 Hipfire Killů (bez zamíření) s nasazenými attachmenty Gawain S-Custom Stock, 9mm 64 Round Mags a Gung-Ho Proficiency',
-          'Armaguerra 43': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Imerito 550M 03P Barrel, Imerito TA Skeletal Stock a Hardscope Proficiency'
+          'Armaguerra 43': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Imerito 550M 03P Barrel, Imerito TA Skeletal Stock a Hardscope Proficiency',
+          'H4 Blixen': 'Dát 100 Killů s nasazenými attachmenty Magnus 9" Burst TG Barrel, .45 ACP 27 Round Mags a Perfectionist Proficiency'
         }
       },
       aether: {
@@ -379,7 +380,8 @@ export default [
           'Sten': 'Dát 100 Killů když se pohybuješ s nasazenými attachmenty 7.62 Gorenko 32 Round Mags, Gawain Para Stock a Steady Proficiency',
           'Owen Gun': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Hockenson 305mm Precision Barrel, 9mm 20 Round Mags a Acrobatic Proficiency',
           'Welgun': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty 320mm SA Shrouded Barrel, SA 43M Pack Stock a 7.62 Gorenko 48 Round Mags',
-          'Armaguerra 43': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Perfetto Custom Barrel, Imerito TA Skeletal Stock a Discard Proficiency'
+          'Armaguerra 43': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Perfetto Custom Barrel, Imerito TA Skeletal Stock a Discard Proficiency',
+          'H4 Blixen': 'Dát 100 ADS Killů (když zaměřuješ) s nasazenými attachmenty Bergström 17" F3 Barrel, Mark VI Skeletal Underbarrel a Slate Reflector optikou'
         }
       },
       aether: {
@@ -456,7 +458,8 @@ export default [
           'Sten': 'Dát 50 Headshot Killů s nasazenými attachmenty Hockenson 348mm B13S Barrel, 9mm 30 Round Mags. and Steady Proficiency',
           'Owen Gun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty Gawain 188mm Shrouded Barrel, Gawain H4 Folding Stock a Wreck Proficiency',
           'Welgun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty 120mm Gawain Short Barrel, Removed Stock a Momentum Proficiency',
-          'Armaguerra 43': 'Dát 100 Multikillů (Double killy, Triple killy a další) s nasazenými attachmenty 9mm 60 Round Mags, Botti DA Stock a Vital Proficiency'
+          'Armaguerra 43': 'Dát 100 Multikillů (Double killy, Triple killy a další) s nasazenými attachmenty 9mm 60 Round Mags, Botti DA Stock a Vital Proficiency',
+          'H4 Blixen': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Mercury Silencer, Karlsson 17" Custom Barrel a 7.62 Gorenko Round Mags'
         }
       },
       aether: {

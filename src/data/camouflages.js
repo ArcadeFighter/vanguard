@@ -63,7 +63,8 @@ export default [
         'Submachine Guns': { 
           default: 'Dát 100 Headshot Killů',
           'MP-40': 'Dát 50 Headshot Killů',
-          'Sten': 'Dát 50 Headshot Killů'
+          'Sten': 'Dát 50 Headshot Killů',
+          'H4 Blixen': 'Dát 50 Headshot Killů'
         }
       },
       aether: {

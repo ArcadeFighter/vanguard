@@ -459,7 +459,7 @@ export default [
           'Owen Gun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty Gawain 188mm Shrouded Barrel, Gawain H4 Folding Stock a Wreck Proficiency',
           'Welgun': 'Dát 100 Close Range Killů (kill když je nepřítel blízko) s nasazenými attachmenty 120mm Gawain Short Barrel, Removed Stock a Momentum Proficiency',
           'Armaguerra 43': 'Dát 100 Multikillů (Double killy, Triple killy a další) s nasazenými attachmenty 9mm 60 Round Mags, Botti DA Stock a Vital Proficiency',
-          'H4 Blixen': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Mercury Silencer, Karlsson 17" Custom Barrel a 7.62 Gorenko Round Mags'
+          'H4 Blixen': 'Dát 100 Killů bez toho aniž by jsi dostal hit od nepřítele s nasazenými attachmenty Mercury Silencer, Karlsson 17" Custom Barrel a 7.62 Gorenko 36 Round Mags'
         }
       },
       aether: {
